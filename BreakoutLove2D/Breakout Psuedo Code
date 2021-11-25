@@ -1,0 +1,33 @@
+What the Paddle does.
+change y velocity if intercepting the paddle. //done
+if ball is on less than ball in the x then go more in the left direction. do the same for the right
+Also calculate the angle that the ball should be when it is a certain amount from the center.
+
+What the bricks do.
+if they get touched then they disappear. which means they dont get updated anymore and drawed anymore //done
+if ball on left side then make ball go left. if ball on right side than make ball go right. if ball on bottom then make ball go down. if ball on top then make ball go on top //done
+
+
+What the ball does.
+If the ball hits the boundaries reverse the velocity. //done
+if the ball hits the bottom boundary add one to the death counter //done
+if death counter is zero go to game over state
+random direction at beginning of game
+
+States:
+MenuState: It allows player to transition to play state
+PlayState:While player playing game
+Give 1 point for each block
+ServeState: Serve Ball to player
+GameOverState: When player dies three times, transition to this state
+
+Level Design:
+0 means no block and 1 means there is a block there.
+Give map for blocks a x and a y.
+Get Maps from a 2d array of 0's and 1's.
+
+
+
+
+` 
+

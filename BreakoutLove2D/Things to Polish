@@ -1,0 +1,20 @@
+Coding related:
+Organize the code.
+
+Sound and Graphics:
+
+Fix the brick textures
+
+Finished:
+fix ball's positioning when in the serve state, also make brick teleport to center when in the serve state. //done
+when finished with all levels, go to menu state. //done
+Make ball at beginning not almost always go in the center //done
+Fix reset the BALLSPEED of the ball everytime it goes into Servestate //done
+Create Levels //done
+pause feature --done
+fix the position of the levels. //done
+Make no bounce powerup not go through tiered bricks in a second.//done
+Make powerups have a time limit.//done
+Fix the nobounce powerup texture //done
+FIx the ball texture //done
+complete sound //done
